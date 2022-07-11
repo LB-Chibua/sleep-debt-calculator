@@ -18,9 +18,7 @@ const getSleepHours = day => {
   } else if (day === 'sunday') {
     return 7
   }
-}  
-
-// console.log(getSleepHours('thursday'));
+}   
 
 // Function to get the total sleep hours that you actually slept
 const getActualSleepHours = () => {
@@ -33,8 +31,6 @@ const getIdealSleepHours = () => {
   return idealHours*7
 };
 
-// console.log((getActualSleepHours()));
-// console.log(getIdealSleepHours());
 
 // Function to get the sleep debt
 const calculateSleepDebt = () => {
